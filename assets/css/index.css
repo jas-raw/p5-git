@@ -1,0 +1,13 @@
+body{
+    background-color: black;
+    color: aliceblue;
+}
+.app{
+    height: 100vh;
+}
+.expand{
+    transition: transform 2s;
+}
+.expand:hover{
+    transform: scale(1.2);
+}
